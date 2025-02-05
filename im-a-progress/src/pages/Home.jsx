@@ -1,13 +1,13 @@
 import { About } from "./About"
 import { Projects } from "./Projects"
-import Contact from "./Contact"
+import { Contact } from "./Contact"
 
 export const Home = () => {
   return (
     <main>
       <section className="font-sans">
         <div className="flex flex-col md:flex-row items-center max-w-8xl px-6 py-8 mx-auto h-screen">
-          <div className="w-full md:w-1/2 py-8">
+          <div className="w-full md:w-2/3 py-8">
             <div className="text-neutral-700 text-xl font-semibold leading-none tracking-tighter">
               <div className="my-4">
                 <p className="mb-3 md:text-4xl"> Hello, my name is </p>
@@ -21,7 +21,7 @@ export const Home = () => {
                 </p>
             </div>
           </div>
-          <div className="w-full md:w-2/5">
+          <div className="w-full md:w-1/3 ml-10">
             <img src="https://www.svgrepo.com/show/493331/male-programmer-upper-body.svg" className="g-image" />
           </div>
         </div>

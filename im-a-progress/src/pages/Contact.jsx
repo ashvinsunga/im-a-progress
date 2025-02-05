@@ -1,5 +1,5 @@
 
-export default function Contact() {
+export const Contact = () => {
   return (
     <section>
         <p>Get in touch</p>
